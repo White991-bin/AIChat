@@ -1,0 +1,39 @@
+# Build directories
+build/
+*/build/
+*/*/build/
+Test/build/
+ChatServer/build/
+sdk/build/
+
+# Binary files
+*.o
+*.a
+*.so
+*.exe
+AIChatServer
+bin/
+
+# CUDA/Ollama dependencies
+Test/build/lib/ollama/
+
+# Database
+*.db
+sqlite/
+sqlite3
+
+# Archives
+*.zip
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
